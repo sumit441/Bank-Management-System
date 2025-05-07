@@ -5,7 +5,7 @@
 	<?php require 'assets/autoloader.php'; ?>
 	<?php require 'assets/function.php'; ?>
 	<?php
-    $con = new mysqli('localhost','root','','mybank');
+    $con = new mysqli('localhost','root','','mybank'); //used xampp for database
     define('bankName', 'Shinigami Bank',true);
 	
 		$error = "";
